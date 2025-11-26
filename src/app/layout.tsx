@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   title: "TechShop Milano | Venture Capital Investment Firm",
   description: "Leading European VC firm investing in transformative tech startups across AI, fintech, deep tech, and climate innovation. Partner with us to scale your vision.",
   keywords: "venture capital, tech investment, startup funding, VC firm Milan, European VC",
-  metadataBase: new URL("https://techshopmilano.com"),
+  metadataBase: new URL("https://techshop-milano.com"),
   alternates: {
-    canonical: "https://techshopmilano.com"
+    canonical: "https://techshop-milano.com"
   },
   openGraph: {
     title: "TechShop Milano | European Venture Capital",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "TechShop Milano",
     type: "website",
     images: [{
-      url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149791968-lyk6c09e.jpg",
+      url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150000330-vlv6scof.jpg",
       alt: "TechShop Milano Venture Capital"
     }]
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "TechShop Milano | VC Investment",
     description: "Transformative tech investment across Europe",
-    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149791968-lyk6c09e.jpg"]
+    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150000330-vlv6scof.jpg"]
   },
   robots: {
     index: true,
@@ -49,7 +49,7 @@ export default function RootLayout({
     <html lang="en">
       <PostHogWrapper>
         <body
-          className={merriweather.variable}
+          className={`${merriweather.variable} antialiased`}
         >
           <Tag />
           {children}

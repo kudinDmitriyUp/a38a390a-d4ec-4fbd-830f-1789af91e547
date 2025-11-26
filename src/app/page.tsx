@@ -1,5 +1,4 @@
 "use client"
-
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroCarouselLogo from '@/components/sections/hero/heroCarouselLogo/HeroCarouselLogo';
@@ -10,7 +9,7 @@ import TestimonialCardThree from '@/components/sections/testimonial/TestimonialC
 import SocialProofTwo from '@/components/sections/socialProof/SocialProofTwo';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, BarChart3, Brain, Leaf, Mail, Sparkles, Target, TrendingUp, Users, Zap } from "lucide-react";
+import { Brain, TrendingUp, Zap, Leaf, BarChart3, Target, Users, Sparkles, Award, Mail } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -30,11 +29,11 @@ export default function LandingPage() {
         <NavbarLayoutFloatingOverlay
           brandName="TechShop Milano"
           navItems={[
-            { name: "Home", id: "home" },
-            { name: "About", id: "about" },
-            { name: "Portfolio", id: "portfolio" },
-            { name: "Insights", id: "insights" },
-            { name: "Contact", id: "contact" }
+            {name: "Home", id: "home"},
+            {name: "About", id: "about"},
+            {name: "Portfolio", id: "portfolio"},
+            {name: "Insights", id: "insights"},
+            {name: "Contact", id: "contact"}
           ]}
           button={{
             text: "Schedule Call",
@@ -49,20 +48,20 @@ export default function LandingPage() {
           logoText="TECHSHOP MILANO"
           description="Investing in the brightest tech innovations and ambitious founders shaping tomorrow's digital landscape"
           buttons={[
-            { text: "View Portfolio", href: "portfolio" },
-            { text: "Get in Touch", href: "contact" }
+            {text: "View Portfolio", href: "portfolio"},
+            {text: "Get in Touch", href: "contact"}
           ]}
           slides={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149791968-lyk6c09e.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150000330-vlv6scof.jpg",
               imageAlt: "Modern tech innovation office"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149792749-dztwauh4.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150000844-sjq3bwwe.jpg",
               imageAlt: "Venture capital investment analytics"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149793443-nsy81635.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150001378-ovxnhtm0.jpg",
               imageAlt: "Fintech blockchain technology"
             }
           ]}
@@ -80,8 +79,8 @@ export default function LandingPage() {
             "TechShop Milano is a venture capital firm dedicated to identifying and nurturing transformative technology companies across Europe. Since our founding, we have partnered with exceptional founders to scale innovative solutions in AI, fintech, deep tech, and climate technology. Our investment thesis focuses on companies that demonstrate strong market potential, visionary leadership, and the ability to create lasting impact."
           ]}
           metrics={[
-            { label: "Successful Exits", value: "24+" },
-            { label: "Portfolio Companies", value: "87" }
+            {label: "Successful Exits", value: "24+"},
+            {label: "Portfolio Companies", value: "87"}
           ]}
           showBorder={false}
           titleClassName="text-6xl font-bold tracking-tight"
@@ -100,25 +99,25 @@ export default function LandingPage() {
               title: "Artificial Intelligence",
               description: "Supporting companies building next-generation AI solutions for enterprise and consumer markets",
               icon: Brain,
-              button: { text: "Learn More", href: "#" }
+              button: {text: "Learn More", href: "#"}
             },
             {
               title: "Financial Technology",
               description: "Investing in fintech innovators disrupting banking, payments, and wealth management sectors",
               icon: TrendingUp,
-              button: { text: "Learn More", href: "#" }
+              button: {text: "Learn More", href: "#"}
             },
             {
               title: "Deep Technology",
               description: "Backing breakthrough research and engineering with real-world commercial applications",
               icon: Zap,
-              button: { text: "Learn More", href: "#" }
+              button: {text: "Learn More", href: "#"}
             },
             {
               title: "Climate Tech",
               description: "Partnering with founders solving climate challenges through technological innovation",
               icon: Leaf,
-              button: { text: "Learn More", href: "#" }
+              button: {text: "Learn More", href: "#"}
             }
           ]}
           gridVariant="four-items-2x2-equal-grid"
@@ -176,7 +175,7 @@ export default function LandingPage() {
               name: "Marco Rossi",
               handle: "Founder, DataFlow AI",
               testimonial: "TechShop Milano didn't just provide capital. They opened doors to industry leaders, helped us scale our team, and believed in our vision when others were skeptical. Today, DataFlow serves Fortune 500 companies.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149794137-n3voj3cx.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150002213-9h97furf.jpg",
               imageAlt: "Marco Rossi, Founder of DataFlow AI"
             },
             {
@@ -184,7 +183,7 @@ export default function LandingPage() {
               name: "Giulia Benedetti",
               handle: "CEO, GreenEnergy Tech",
               testimonial: "The investment was transformational, but more importantly, their network and mentorship accelerated our growth by years. We went from prototype to series B in 18 months.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149794846-lurzg38f.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150002751-khhlr51p.jpg",
               imageAlt: "Giulia Benedetti, CEO of GreenEnergy Tech"
             },
             {
@@ -192,7 +191,7 @@ export default function LandingPage() {
               name: "David Chen",
               handle: "Co-founder, FinanceFlow",
               testimonial: "Working with TechShop Milano partners was like having a board of advisors who genuinely cared about our success. Their strategic guidance helped us navigate complex market dynamics.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149795533-awc74sfs.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150003663-bhv1afc0.jpg",
               imageAlt: "David Chen, Co-founder of FinanceFlow"
             },
             {
@@ -200,11 +199,10 @@ export default function LandingPage() {
               name: "Lisa Müller",
               handle: "Founder, SecureNet",
               testimonial: "The combination of strategic capital and hands-on operational support gave us the confidence to pursue an ambitious roadmap. They treated us as partners, not just an investment.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149796272-y6dkjr5e.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150004165-4j7llbht.jpg",
               imageAlt: "Lisa Müller, Founder of SecureNet"
             }
           ]}
-          gridVariant="two-columns-alternating-heights"
           animationType="opacity"
           textboxLayout="default"
           containerClassName="space-y-12"
@@ -216,11 +214,11 @@ export default function LandingPage() {
           title="Our Limited Partners"
           description="Trusted by leading institutional investors and family offices across Europe"
           logos={[
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149796893-uhil95xo.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149797550-96pync37.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149798276-glm8aiye.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149798736-0rucgwon.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764149799409-9bxmway5.jpg"
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150004780-6qaq1ksd.jpg",
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150005240-urcacyaw.jpg",
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150005723-8m61874x.jpg",
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150006299-fo63hqf4.jpg",
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764150006837-eaqwac5a.jpg"
           ]}
           textboxLayout="default"
           containerClassName="space-y-12"
@@ -250,27 +248,27 @@ export default function LandingPage() {
             {
               title: "Company",
               items: [
-                { label: "About Us", href: "about" },
-                { label: "Investment Thesis", href: "portfolio" },
-                { label: "Team", href: "#" },
-                { label: "Careers", href: "#" }
+                {label: "About Us", href: "about"},
+                {label: "Investment Thesis", href: "portfolio"},
+                {label: "Team", href: "#"},
+                {label: "Careers", href: "#"}
               ]
             },
             {
               title: "Resources",
               items: [
-                { label: "Blog & Insights", href: "#" },
-                { label: "Market Reports", href: "#" },
-                { label: "Founder Resources", href: "#" },
-                { label: "Contact", href: "contact" }
+                {label: "Blog & Insights", href: "#"},
+                {label: "Market Reports", href: "#"},
+                {label: "Founder Resources", href: "#"},
+                {label: "Contact", href: "contact"}
               ]
             },
             {
               title: "Legal",
               items: [
-                { label: "Privacy Policy", href: "#" },
-                { label: "Terms of Service", href: "#" },
-                { label: "Compliance", href: "#" }
+                {label: "Privacy Policy", href: "#"},
+                {label: "Terms of Service", href: "#"},
+                {label: "Compliance", href: "#"}
               ]
             }
           ]}
